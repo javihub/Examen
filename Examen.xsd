@@ -34,7 +34,7 @@ elementFormDefault="qualified">
 			<xsd:element name="telefon" type="xsd:string" />
 			<xsd:element name="email" type="xsd:string" />
 			<xsd:element name="tipusClient" type="xsd:string"/>
-			<xsd:element name="lloguer">
+			<xsd:element name="lloguer" >
 				<xsd:complexType>
 					<xsd:sequence>
 						<xsd:element name="cotxe" type="xsd:string" />
@@ -44,7 +44,7 @@ elementFormDefault="qualified">
 				</xsd:complexType>
 			</xsd:element>
 		</xsd:sequence>
-		<xsd:attribute name="dni" type="xsd:string" />
+		<xsd:attribute name="dni" type="xsd:string" use="optional" />
 	</xsd:complexType>
 </xsd:element>
 
